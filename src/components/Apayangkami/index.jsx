@@ -5,7 +5,7 @@ import IconKain from "../../assets/images/icon/icon-02.svg";
 import IconMerchandise from "../../assets/images/icon/icon-03.svg";
 import IconDisplay from "../../assets/images/icon/icon-04.svg";
 
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Apayangkami = () => {
   return (
@@ -23,7 +23,7 @@ const Apayangkami = () => {
           <div className="working-content mobile-cards">
             <div className="work-card">
               <div className="work-img ">
-                <img src={IconPrint} alt="work-img" />
+                <LazyLoadImage src={IconPrint} alt="Univ-img" />
               </div>
               <h6 className="work-steps">Print A3+</h6>
               <p className="steps-para">
@@ -33,7 +33,7 @@ const Apayangkami = () => {
             </div>
             <div className="work-card">
               <div className="work-img">
-                <img src={IconKain} alt="work-img" />
+                <LazyLoadImage src={IconKain} alt="Univ-img" />
               </div>
               <h6 className="work-steps">Print Kain </h6>
               <p className="steps-para">
@@ -43,7 +43,7 @@ const Apayangkami = () => {
             </div>
             <div className="work-card">
               <div className="work-img">
-                <img src={IconMerchandise} alt="work-img" />
+                <LazyLoadImage src={IconMerchandise} alt="Univ-img" />
               </div>
               <h6 className="work-steps">Print Merchandise</h6>
               <p className="steps-para">
@@ -53,7 +53,7 @@ const Apayangkami = () => {
             </div>
             <div className="work-card">
               <div className="work-img">
-                <img src={IconDisplay} alt="work-img" />
+                <LazyLoadImage src={IconDisplay} alt="Univ-img" />
               </div>
               <h6 className="work-steps">Print Sign &amp; Display </h6>
               <p className="steps-para">

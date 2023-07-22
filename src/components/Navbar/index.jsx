@@ -19,6 +19,8 @@ import Testimonial from "../Testimonial/Index";
 import Footer from "../Footer";
 import SliderClient from "../SliderClient";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const NavbarBs = () => {
   return (
     <>
@@ -60,9 +62,10 @@ const NavbarBs = () => {
                 Buat Janji 🎉
               </Button>{" "}
               <div className="banner-image">
-                <img
+                <LazyLoadImage
+                  effect="blur"
                   src="https://res.cloudinary.com/bintangsempurna/image/upload/v1689839565/playground_img-min_krfzir.webp"
-                  alt="banner-img"
+                  alt="banner-image"
                 />
               </div>
               <div className="banner-vectors">

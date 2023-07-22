@@ -1,5 +1,7 @@
 import React from "react";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const PlayGround = () => {
   return (
     <>
@@ -9,15 +11,15 @@ const PlayGround = () => {
             <div className="row">
               <div className="col-lg-6 col-sm-12">
                 <div className="top-img">
-                  <img
+                  <LazyLoadImage
                     className="top-1"
                     src="https://res.cloudinary.com/bintangsempurna/image/upload/v1689923071/4_kwmijd.png"
-                    alt="about-top"
+                    alt="content-img"
                   />
-                  <img
+                  <LazyLoadImage
                     className="top-2"
                     src="https://res.cloudinary.com/bintangsempurna/image/upload/v1689923071/2_tjo59q.png"
-                    alt="about-top"
+                    alt="content-img"
                   />
                 </div>
               </div>
@@ -41,17 +43,17 @@ const PlayGround = () => {
             <div className="bottom-img">
               <div className="row">
                 <div className="col-lg-4 col-xl-4 col-sm-4 col-4">
-                  <img
+                  <LazyLoadImage
                     className="top-3"
                     src="https://res.cloudinary.com/bintangsempurna/image/upload/v1689923071/3_gmofio.png"
-                    alt="about"
+                    alt="content-img"
                   />
                 </div>
                 <div className="col-lg-8 col-sm-8 col-8">
-                  <img
+                  <LazyLoadImage
                     className="top-4"
                     src="https://res.cloudinary.com/bintangsempurna/image/upload/v1689923071/1_iapodr.png"
-                    alt=" about"
+                    alt="content-img"
                   />
                 </div>
               </div>
@@ -59,14 +61,12 @@ const PlayGround = () => {
           </div>
           <div className="about-info-mobile">
             <h3 className="section-title">
-              We provide innovative idea and awesome services for your client
+              Material & Teknologi Printing ter-Update.
             </h3>
             <p className="section-subtitle">
-              Duis orci nisl, ornare non diam id, dapibus faucibus urna.
-              Vestibulum tristique posuere iaculis. Suspendisse orci tortor,
-              auctor non luctus sed, vulputate sit amet libero. Maecenas congue
-              fringilla justo molestie dapibus. Cras quis erat in velit rhoncus
-              mollis. Phasellus eu enim dignissim an
+              Jelajah Advance Printing di atas bahan Rigid Media (Akrilik,
+              Lenticular Printing, Aluminium) dengan metode cetak UV Flatbed
+              sampai Laser Engraving.
             </p>
           </div>
         </div>
