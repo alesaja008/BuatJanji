@@ -29,8 +29,8 @@ const NavbarBs = () => {
           <div className="container">
             <div className="nav">
               <div className="logo">
-                <a href="index3.html">
-                  <img src={LogoBs} alt="logo" />
+                <a href="https://bintangsempurna.co.id/">
+                  <LazyLoadImage src={LogoBs} alt="Logo-icon" />
                 </a>
               </div>
 
