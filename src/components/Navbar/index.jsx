@@ -66,8 +66,6 @@ const NavbarBs = () => {
                   effect="blur"
                   src="https://res.cloudinary.com/bintangsempurna/image/upload/v1690170979/Konsultasi/playgroundd_im5ebc.webp"
                   alt="banner-image"
-                  width={500}
-                  height={500}
                 />
               </div>
               <div className="banner-vectors">
