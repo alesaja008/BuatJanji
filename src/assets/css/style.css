@@ -1835,10 +1835,9 @@ Homepage 2 / .homepage-2 :: Ends
 }
 
 .hp-3 .banner-section .banner-image img {
-	border-radius: 45px;
 	position: relative;
 	z-index: 2;
-	max-width: 800px;
+
 }
 
 

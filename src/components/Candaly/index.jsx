@@ -13,7 +13,8 @@ const Calendly = () => {
   return (
     <div className="App">
       <InlineWidget
-        url="https://calendly.com/jadwal-mahasiswa-bs/jadwal-untuk-mahasiswa-di-bintang-sempurna?hide_landing_page_details=1"
+        className="calendly-inline-widget"
+        url="https://calendly.com/appointment-pry/jadwal-konsultasi-bintang-sempurna?hide_landing_page_details=1"
         styles={{ height: "800px", maxWidth: "100%" }}
       />
     </div>

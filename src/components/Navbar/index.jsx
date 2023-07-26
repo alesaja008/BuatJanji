@@ -64,8 +64,10 @@ const NavbarBs = () => {
               <div className="banner-image">
                 <LazyLoadImage
                   effect="blur"
-                  src="https://res.cloudinary.com/bintangsempurna/image/upload/v1689839565/playground_img-min_krfzir.webp"
+                  src="https://res.cloudinary.com/bintangsempurna/image/upload/v1690170979/Konsultasi/playgroundd_im5ebc.webp"
                   alt="banner-image"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="banner-vectors">
