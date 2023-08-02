@@ -11,7 +11,7 @@ const Calendly = () => {
   });
 
   return (
-    <div className="App">
+    <div className="Calendly">
       <InlineWidget
         className="calendly-inline-widget"
         url="https://calendly.com/appointment-pry/jadwal-konsultasi-bintang-sempurna?hide_landing_page_details=1"
