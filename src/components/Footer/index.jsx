@@ -24,13 +24,13 @@ const Footer = () => {
         </Row>
 
         <div className="social-icon">
-          <a href="#!">
+          <a href="https://www.facebook.com/bintangsempurna/?locale=id_ID">
             <BiLogoFacebookCircle className="icon" />
           </a>
-          <a href="#!">
+          <a href="https://twitter.com/bisempurna46">
             <BiLogoTwitter className="icon" />
           </a>
-          <a href="#!">
+          <a href="https://www.instagram.com/bisempurna46/?hl=en">
             <BiLogoInstagram className="icon" />
           </a>
         </div>
@@ -43,3 +43,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
